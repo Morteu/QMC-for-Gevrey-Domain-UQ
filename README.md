@@ -19,7 +19,7 @@ Contains submodules defining the reference domain and different possible perturb
 ### utils
 Various useful submodules for logging information, plotting, timing the code, and processing the results.
 
-### FEM.py / FEMx.py
+### FEM.py
 Meshes the domains and calls FEniCS to obtain a discretized solution to Poisson's equation on the sampled domains.
 
 ### QMC_par_shifts.py
