@@ -1,6 +1,6 @@
 #!/bin/bash
 
-destination_folder="maxorteu@curta.zedat.fu-berlin.de:~/Code_disk"
+destination_folder="$USER@curta.zedat.fu-berlin.de:~/Code_disk"
 local_folder="$HOME/desktop/TFM/Code"
 
 # Transfer files to the remote server
