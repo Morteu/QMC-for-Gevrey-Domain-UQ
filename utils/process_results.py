@@ -205,16 +205,3 @@ def double_reconstruction(folder, n):
 def calculate_delta_differences():
     # TODO: calculate the difference in the delta values in the reconstruction, to see if QMC is better than MC when visually they look similar
     pass
-
-df = import_and_append('~/Desktop/MATES/PhD/Paper Shape Inversion/Results_5p_10')
-# df = import_and_append('~/Desktop/non_par')
-rmse_df = calculate_rmse(df)
-plot_results(rmse_df, 0)
-
-# plot_reconstruction('~/Desktop/MATES/PhD/Paper Shape Inversion/Results_5p_10', 128021, Dref='sampled')
-# plot_reconstruction('~/desktop/Sampled domain reconstruction', 8009, "Weight-dependent QMC", Dref = 'sampled')
-# plot_reconstruction('~/desktop/Disk good', 32003, "Weight-dependent QMC", Dref = 'sampled')
-# ns = [11, 23, 31, 43, 53, 61, 71, 83, 101, 211, 307, 401, 503, 601, 701, 809, 907, 1009, 1091, 1187, 1283, 1381, 1481, 1567, 1657, 1753, 1871, 1979]
-# for i in ns:
-#     plot_reconstruction('~/desktop/TFM/Code/Results', i, Dref = 'sampled')
-# double_reconstruction('~/desktop/Results_5p_10', 128021)
